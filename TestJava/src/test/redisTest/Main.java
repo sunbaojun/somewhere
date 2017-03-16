@@ -75,7 +75,7 @@ public class Main {
     }
 	static int[] quick_sort(int s[], int l, int r)  
 	{  
-	    if (l < r)  
+	    if (l < r)   
 	    {  
 	        //Swap(s[l], s[(l + r) / 2]); //将中间的这个数和第一个数交换 参见注1  
 	        int i = l, j = r, x = s[l];  
