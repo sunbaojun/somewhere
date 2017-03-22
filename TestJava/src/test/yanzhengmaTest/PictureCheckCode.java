@@ -44,7 +44,7 @@ public class PictureCheckCode extends HttpServlet {
         b=s+random.nextInt(e-s);    //随机生成RGB颜色中的b值  
         return new Color(r,g,b);  
     }  
-  
+  ;
     @Override  
     public void service(HttpServletRequest request, HttpServletResponse response)  
             throws ServletException, IOException {  
