@@ -83,7 +83,7 @@ public class JMFSample implements ControllerListener {
             player.prefetch();  
         } else if (ce instanceof PrefetchCompleteEvent) {  
             if (visual != null)  
-                return;  
+                return;   
   
             //取得player中的播放视频的组件，并得到视频窗口的大小  
             //然后把视频窗口的组件添加到Frame窗口中，  
