@@ -1,0 +1,15 @@
+一、工具结构说明
+	代码主要分为两部分
+		代码
+			com.eya.core  --> 核心通用代码，拷贝到自己的项目中就可使用
+			com.eya.tools --> 工具代码，用于从数据库表映射成JAVA代码
+		模板
+			com.eya.tools.generator.template  --> 所有的模板都放在该包下，可以根据自己的需求，修改模板
+			特别说明：示例代码中将jsp的生成代码注释掉了，如果需要生成jsp，需要自己定制修改模板
+二、使用说明
+	目前工具中已经实现了三种数据库（Oracle、Mysql、DB2）的代码生成器（位于com.eya.tools.generator.executor下），
+	以MysqlGenerator.java为例讲解，进入到工具类，修改相应的参数，然后运行即可
+
+	
+	
+						如果有其他问题，请联系：simpleton_2013@163.com
